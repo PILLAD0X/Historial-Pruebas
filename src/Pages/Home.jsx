@@ -327,7 +327,7 @@ const Home = () => {
             />
         }
         {detalle70Barcode.length ===0 ?
-            <h6></h6>
+            <h6> </h6>
         :
         <DetalleCodigo
             datos = {detalle70Barcode}
